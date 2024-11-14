@@ -1,0 +1,324 @@
+@font-face {
+    font-family: 'logo';
+    src: url(./assents/fontes/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf);
+}
+
+.material-symbols-outlined{
+    color: #006af4;
+    font-variation-settings: 
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+#menu{
+    display: none;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.2rem;
+    background-color: #55007c;
+    position: fixed;
+    box-shadow: 0 0 .5rem black;
+    
+    
+}
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+h1{
+    font-family: 'logo';
+    margin: 0 2rem;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    
+    
+}
+
+.logo{
+
+    margin: 0 em;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 2rem;
+}
+
+a{
+    font-size: 1rem;
+    padding: 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+.pad{
+    color: black;
+}
+
+
+@media (max-width: 600px){
+
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;  
+        background-position: center, center;
+        background-attachment: fixed; 
+    }
+
+   
+
+    header{
+        width: 100%;
+        position: fixed;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    a{
+        padding: .3rem;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    p{ 
+        font-size: 1.3rem;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .logo{
+        display: none;
+        
+    }
+    
+
+    .mostraNavegacao{
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        background-color:  #55007c;
+        box-shadow: 0 1.5rem .6rem black;
+        width: 100%;
+    }
+
+    .revelarNavegacao{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+        
+    }
+   
+   
+    .carousel-item {
+        height: 20rem; 
+    }
+
+     .carousel-item img {
+         object-fit: cover;
+     } 
+
+     
+        .anuncio-container {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .anuncio-container img {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    
+        .anuncio-text {
+            
+            margin-top: 2rem;
+        }
+
+       
+    
+        
+        .video-container iframe {
+            height: 2rem; 
+        }
+        
+        #video-anuncio > iframe {
+            width: 1rem;
+        }
+ 
+    
+        .form-container {
+            padding: 20px;
+            width: 20rem;
+        }
+    
+        .form-group label {
+            font-size: 0.9rem;
+        }
+    
+        .form-control {
+            font-size: 0.9rem;
+        }
+    
+        button[type="submit"] {
+            font-size: 0.9rem;
+        }
+        
+        #login{
+            width: 1rem;
+        }
+
+        #login .form-container p {
+            font-size: 0.9rem;
+        }
+        #sobre h2 {
+            font-size: 1.5rem;
+        }
+    
+        #sobre .row > .col-md-6 {
+            margin-bottom: 20px;
+        }
+    
+        #sobre h3 {
+            font-size: 1.25rem;
+        }
+    
+        .map-container iframe {
+            height: 250px;
+        }
+        #faq h2 {
+            font-size: 1.5rem;
+        }
+    
+        
+        .faq-container {
+            flex-direction: column;
+        }
+    
+        .faq-item {
+            flex-basis: 100%; 
+            margin-bottom: 15px;
+        }
+    
+        .faq-question {
+            font-size: 1.1rem;
+        }
+    
+        .faq-answer {
+            font-size: 0.9rem;
+        }
+
+        #video-anuncio h2 {
+            font-size: 1rem;
+        }
+    
+        .img-fluid{
+            margin-left: 2rem;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            height: 30rem;
+        }
+        .row {
+            flex-direction: column;
+        }
+    
+        .anuncio, .video-container {
+            flex-basis: 100%; 
+            margin-bottom: 15px;
+        }
+    
+        .video-container iframe {
+            height: 300px;
+        }
+    
+        .anuncio-texto {
+            font-size: 0.9rem;
+        }
+        .container {
+            flex-direction: column;
+            text-align: center; 
+        }
+    
+        .about-photo {
+            margin-bottom: 20px;
+        }
+    
+        .about-photo img {
+            width: 150px; 
+            height: 150px;
+        }
+    
+        .about-content {
+            max-width: 100%; 
+        }
+        #footer {
+            padding: 20px 10px; 
+            font-size: 14px; 
+        }
+    
+        .footer-links a {
+            font-size: 14px; 
+        }
+    
+        .footer-right img {
+            width: 28px; 
+            height: 28px;
+        }
+
+        .footer-content {
+            flex-direction: column; 
+            text-align: center; 
+        }
+    
+        .footer-left, .footer-center, .footer-right {
+            margin: 10px 0;
+            text-align: center; 
+        }
+    
+        .footer-links {
+            justify-content: center;
+            margin-top: 20px;
+        }
+    
+        .footer-links li {
+            margin: 5px 10px; 
+        }
+    }
+       
+    
+   

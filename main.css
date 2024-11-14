@@ -1,0 +1,551 @@
+
+
+/* carrossel */
+
+
+body{
+    
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; 
+    color: #333; 
+    background-image: url('https://s2.glbimg.com/piVz-3Ghu-BoesR_CZEaSYPVXLA=/620x413/smart/e.glbimg.com/og/ed/f/original/2021/12/15/os-11-jardins-mais-lindos-do-mundo-2.jpg'); 
+    background-size: cover; 
+    background-position: center, center; 
+    background-attachment: fixed; 
+    line-height: 1.6;
+    
+}
+
+
+header {
+    background-color: #343a40; 
+    padding: 1px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#sessao2 {
+    padding-top: 18rem; 
+}
+
+.carousel-item {
+    margin-top: 1.4rem;
+    height: 30rem; 
+    background-color: #333; 
+}
+
+.carousel-item img {
+    object-fit: cover; 
+    height: 100%;
+}
+
+
+.carousel-control-prev-icon .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* video*/
+#video-anuncio {
+    height: 73rem;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Bloco de vídeo */
+.video-container {
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+
+
+
+/* anuncio */
+.anuncio-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: .7rem 1rem;
+    transition: transform 0.3s;
+}
+
+.anuncio-container:hover {
+    transform: translateY(-3rem);
+}
+
+.anuncio-container img {
+    width: 70%;
+    height: 30.5rem;
+    border-radius: 8px;
+}
+
+.anuncio-text {
+    background-color: white;
+    margin-left: 1.6rem;
+    flex: 1;
+}
+
+.anuncio-text h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.anuncio-text p {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.anuncio-texto .btn {
+    background-color: #55007c;
+    color: #fff;
+    padding: .6rem 2rem;
+    border-radius: .4rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.anuncio-texto .btn:hover {
+    background-color: #55007c;
+}
+
+
+/* Seção de Login */
+#login {
+    padding-top: 80px;
+    padding-bottom: 50px;
+   
+}
+
+/* Título da Seção */
+#login h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Alinhamento do Formulário de Login */
+#login .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Formulário de Login */
+.form-container {
+    height: 20rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40rem;
+}
+
+/* Estilo do título do formulário */
+.form-container h3 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+/* Campos do Formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: .9rem;
+    font-weight: 900;
+    color: #333;
+}
+
+.form-control {
+    font-size: 1rem;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #3a0155;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Botão de Login */
+button[type="submit"] {
+    font-size: .8rem;
+    padding: 12px;
+    background-color: #55007c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #35004e;
+}
+
+/* Link para Cadastro */
+#login .form-container p {
+    font-size: .8rem;
+    color: #666;
+}
+
+#login .form-container a {
+    color: #55007c;
+    text-decoration: none;
+}
+
+#login .form-container a:hover {
+    text-decoration: underline;
+}
+
+/* Seção "Sobre a Página" */
+#sobre {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f8f9fa;
+}
+
+/* Título da Seção */
+#sobre h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Descrição sobre a empresa */
+#sobre .row > .col-md-4 {
+    margin-bottom: 30px;
+}
+
+#sobre h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#sobre p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Galeria de Imagens */
+#sobre .row .col-md-4 {
+    margin-bottom: 15px;
+}
+
+#sobre .img-fluid {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#sobre .img-fluid:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo do Container do Mapa */
+.map-container {
+    margin-top: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividade: Ajuste para telas menores */
+@media (max-width: 767px) {
+    #sobre h2 {
+        font-size: 1.5rem;
+    }
+
+    #sobre h3 {
+        font-size: 1.25rem;
+    }
+
+    #sobre p {
+        font-size: 0.9rem;
+    }
+
+    .map-container iframe {
+        height: 250px;
+    }
+
+    /* Ajuste das colunas para tela pequena */
+    #sobre .row > .col-md-4,
+    #sobre .row > .col-md-8 {
+        margin-bottom: 20px;
+    }
+
+    #sobre .row .col-md-4 {
+        margin-bottom: 10px;
+    }
+
+    #sobre .img-fluid {
+        max-height: 200px;
+        object-fit: cover;
+    }
+}
+
+
+/* Seção FAQ */
+#faq {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f8f9fa;
+}
+
+/* Título da Seção */
+#faq h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Container de todas as perguntas */
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Espaçamento entre as perguntas */
+}
+
+/* Estilos para os itens de FAQ */
+.faq-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    flex-basis: 30%; 
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Hover nos itens da FAQ */
+.faq-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo das perguntas */
+.faq-question {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #55007c;
+}
+
+/* Respostas ocultas inicialmente */
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Estilo para o ícone de resposta expandida */
+.faq-question::after {
+    content: "\002B";  
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: #55007c;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Ícone de resposta expandida */
+.faq-item.active .faq-question::after {
+    content: "\2212"; 
+    transform: rotate(180deg);
+}
+
+/* Estilo do botão do WhatsApp fixo */
+#whatsapp-button {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+    border-radius: 50%;
+    background-color: #25D366; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+/* Tamanho do ícone do WhatsApp */
+#whatsapp-button img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Efeito de hover no botão */
+#whatsapp-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+
+/* Estilos gerais do Footer */
+#footer {
+    background-color: #222; 
+    color: #f1f1f1; 
+    padding: 40px 20px; 
+    font-size: 15px; 
+    text-align: center;
+    border-top: 5px solid #55007c; 
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Container de conteúdo do footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+/* Estilo das seções do Footer */
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    margin: 15px; 
+}
+
+/* Links dentro do footer */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.footer-links li {
+    margin: 10px 20px; 
+}
+
+.footer-links a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-links a:hover {
+    color: #00bcd4; 
+    text-decoration: underline; 
+}
+
+/* Estilo para os ícones sociais */
+.footer-right a {
+    margin: 0 12px;
+    display: inline-block;
+}
+
+.footer-right img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    border-radius: 50%; 
+    border: 2px solid transparent; 
+}
+
+.footer-right a:hover img {
+    transform: scale(1.1); 
+    filter: brightness(1.2); 
+    border-color: #00bcd4; 
+}
+
+
+#about-me {
+    background-color: #f7f7f7; 
+    padding: 60px 20px; 
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.about-photo img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    margin-right: 30px; 
+}
+
+.about-content {
+    max-width: 600px; 
+}
+
+.about-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-topics {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); 
+}
+
+.about-topics h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.about-topics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-topics li {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.about-topics li strong {
+    color: #55007c; 
+}
+
+
+
+
+
+
+
