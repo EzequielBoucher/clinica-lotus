@@ -6,7 +6,7 @@
 # **Projeto Final: Clínica estética LÓTUS**
 
 <div align=center>
-     <a href="https://ezequielboucher.github.io/Projeto-final/"> <img src="./assents/img/logos e faficons/logo.png" width=300></a>
+     <a href="https://ezequielboucher.github.io/clinica-lotus/"> <img src="./assents/img/logos e faficons/logo.png" width=300></a>
 </div>
 
 ## **Descrição**
@@ -82,7 +82,7 @@ As tipografia que escolhi foi em base de combinar um titulo mais elegante e uma 
 O site pode ser acessado através do seguinte link:
 
 <div align=center>
-     <a href="https://ezequielboucher.github.io/Projeto-final/">www.clinicalotus.com</a>
+     <a href="https://ezequielboucher.github.io/clinica-lotus/">www.clinicalotus.com</a>
 </div>
 
 ## **Tecnologias Utilizadas**
